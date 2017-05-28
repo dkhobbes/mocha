@@ -1,0 +1,20 @@
+{
+  "name": "mocha-chai-exp",
+  "version": "1.0.0",
+  "description": "quick example using mocha and chai",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "davidkurth",
+  "license": "ISC"
+}
