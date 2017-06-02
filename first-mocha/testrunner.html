@@ -8,6 +8,12 @@
   <body>
     <script src="node_modules/mocha/mocha.js"></script>
     <script src="node_modules/mocha/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="test/arraytest.js"></script>
 
+
+    <script>
+      mocha.run();
+    </script>
   </body>
 </html>
